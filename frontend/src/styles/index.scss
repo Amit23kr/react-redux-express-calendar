@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: normal 16px "Montserrat", sans-serif;
+  padding: 15px;
+  background: linear-gradient(
+      to right top,
+      #f4f8eb,
+      #f4f8eb,
+      #f4f8eb,
+      #f4f8eb,
+      #f4f8eb
+    )
+    no-repeat;
+  background-attachment: fixed;
+}
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
