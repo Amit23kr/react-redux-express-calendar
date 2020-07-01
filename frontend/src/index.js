@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/index";
 import App from "./App";
-import registerServiceWorker from "./registerServiceWorker";
 import "./styles/index.scss";
 
 const rootElement = document.getElementById("root");
@@ -17,4 +16,3 @@ ReactDOM.render(
 
   rootElement
 );
-registerServiceWorker();
